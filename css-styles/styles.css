@@ -12,6 +12,13 @@ button a {
     padding: 10px
 }
 
+h2,
+p,
+ul,
+ol {
+    color: black;
+}
+
 body {
     background-color: lightsteelblue;
     font-family: Verdana, sans-serif;
