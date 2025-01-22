@@ -11,3 +11,8 @@ button {
     background-color: #388087;
     color: white;
 }
+
+button:hover {
+    background-color: #2b565a;
+    color: rgb(197, 197, 197);
+}
