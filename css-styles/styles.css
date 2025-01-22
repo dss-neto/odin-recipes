@@ -1,22 +1,28 @@
 
+p,
 h1,
+h2,
+ul,
+ol,
 button,
-.list-block,
-button a {
+button a,
+.list-block {
     color: white;
 }
 
 .heading,
 .list-block {
     box-sizing: border-box;
-    padding: 10px
 }
 
-h2,
-p,
-ul,
-ol {
-    color: white;
+.heading,
+button a {
+    padding: 10px;
+}
+
+button a,
+.list-block {
+    display:block;
 }
 
 body {
@@ -26,7 +32,6 @@ body {
 
 a {
     text-decoration: none;
-    height: inherit;
 }
 
 h1 {
@@ -44,15 +49,13 @@ button {
 }
 
 button:hover {
-    /*background-color: #2b565a;
-    color: rgb(197, 197, 197);*/
     filter: brightness(100%)
 }
 
 .list-block {
     margin: 10px auto;
     width: 200px;
-    display: block;
+    padding: 0px;
 }
 
 /*h1 {
