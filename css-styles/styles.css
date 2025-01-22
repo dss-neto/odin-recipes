@@ -20,7 +20,7 @@ ol {
 }
 
 body {
-    background-color: lightsteelblue;
+    background-color: #1c2d42;
     font-family: Verdana, sans-serif;
 }
 
@@ -34,7 +34,7 @@ h1 {
 }
 
 .heading {
-    background-color: orange;
+    background-color: #cc8400;
     margin: -10px -8px 10px;
 }
 
