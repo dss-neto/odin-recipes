@@ -43,8 +43,9 @@ button {
 }
 
 button:hover {
-    background-color: #2b565a;
-    color: rgb(197, 197, 197);
+    /*background-color: #2b565a;
+    color: rgb(197, 197, 197);*/
+    filter: brightness(125%)
 }
 
 .list-block {
