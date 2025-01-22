@@ -40,12 +40,13 @@ h1 {
 
 button {
     background-color: #388087;
+    filter:brightness(75%)
 }
 
 button:hover {
     /*background-color: #2b565a;
     color: rgb(197, 197, 197);*/
-    filter: brightness(125%)
+    filter: brightness(100%)
 }
 
 .list-block {
