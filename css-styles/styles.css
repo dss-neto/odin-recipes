@@ -26,8 +26,8 @@ button a,
 }
 
 body {
-    background-color: #1c2d42;
     font-family: Verdana, sans-serif;
+    background-color: #1c2d42;
 }
 
 a {
@@ -39,17 +39,18 @@ h1 {
 }
 
 .heading {
-    background-color: #cc8400;
     margin: -10px -8px 10px;
+    background-color: #cc8400;
+    border-bottom: solid white 3px;
 }
 
 button {
+    filter:brightness(75%);
     background-color: #388087;
-    filter:brightness(75%)
 }
 
 button:hover {
-    filter: brightness(100%)
+    filter: brightness(100%);
 }
 
 .list-block {
@@ -57,6 +58,28 @@ button:hover {
     width: 200px;
     padding: 0px;
 }
+
+.text-block {
+    box-sizing: border-box;
+    width:50%;
+    font-size: 75%;
+    margin: 10px auto;
+}
+
+.center-img {
+    box-sizing: border-box;
+    width:25%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    border: solid black 5px;
+}
+
+.text-block h2 {
+    text-align: center;
+}
+
 
 /*h1 {
     box-sizing: border-box;
