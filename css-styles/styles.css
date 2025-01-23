@@ -10,11 +10,6 @@ button a,
     color: white;
 }
 
-.list-block,
-.text-block {
-    margin: 10px auto;
-}
-
 .heading,
 .list-block,
 .center-img,
@@ -22,15 +17,25 @@ button a,
     box-sizing: border-box;
 }
 
+button a,
+.list-block,
+.center-img {
+    display:block;
+}
+
+.list-block,
+.text-block {
+    margin: 10px auto;
+}
+
 .heading,
 button a {
     padding: 10px;
 }
 
-button a,
-.list-block,
-.center-img {
-    display:block;
+h1,
+.text-block h2 {
+    text-align: center;
 }
 
 body {
@@ -40,11 +45,6 @@ body {
 
 a {
     text-decoration: none;
-}
-
-h1,
-.text-block h2 {
-    text-align: center;
 }
 
 .heading {
