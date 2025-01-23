@@ -10,8 +10,15 @@ button a,
     color: white;
 }
 
+.list-block,
+.text-block {
+    margin: 10px auto;
+}
+
 .heading,
-.list-block {
+.list-block,
+.center-img,
+.text-block {
     box-sizing: border-box;
 }
 
@@ -21,7 +28,8 @@ button a {
 }
 
 button a,
-.list-block {
+.list-block,
+.center-img {
     display:block;
 }
 
@@ -34,7 +42,8 @@ a {
     text-decoration: none;
 }
 
-h1 {
+h1,
+.text-block h2 {
     text-align: center;
 }
 
@@ -54,30 +63,21 @@ button:hover {
 }
 
 .list-block {
-    margin: 10px auto;
     width: 200px;
     padding: 0px;
 }
 
 .text-block {
-    box-sizing: border-box;
     width:50%;
     font-size: 75%;
-    margin: 10px auto;
 }
 
 .center-img {
-    box-sizing: border-box;
     width:25%;
     height:auto;
     margin-left: auto;
     margin-right: auto;
-    display:block;
     border: solid black 5px;
-}
-
-.text-block h2 {
-    text-align: center;
 }
 
 
