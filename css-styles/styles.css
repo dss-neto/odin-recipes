@@ -12,7 +12,6 @@
 }
 
 p,
-h1,
 h2,
 ul,
 ol,
@@ -91,7 +90,9 @@ button:hover {
     border: solid #cd0909 5px;
 }
 
-h1 {color: #cd0909}
+h1 {
+    color: #cd0909
+}
 
 /*h1 {
     box-sizing: border-box;
