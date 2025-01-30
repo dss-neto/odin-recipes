@@ -67,6 +67,8 @@ a {
 button {
     filter:brightness(100%);
     background-color: #cd0909;
+    border: 2px solid #cbaeae;
+    border-radius: 4px;
 }
 
 button:hover {
