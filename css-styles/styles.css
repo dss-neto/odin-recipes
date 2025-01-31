@@ -96,6 +96,14 @@ h1 {
     color: #cd0909
 }
 
+button a {
+    font-weight: bold;
+}
+
+.heading button a {
+    padding: 5px;
+}
+
 /*h1 {
     box-sizing: border-box;
     background-color: orange;
