@@ -16,6 +16,14 @@ button a,
   color: #f1f1f1;
 }
 
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+li {
+  margin: 1rem;
+}
+
 .heading,
 .list-block,
 .center-img,
